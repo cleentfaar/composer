@@ -216,6 +216,7 @@ class Application extends BaseApplication
         $commands[] = new Command\InstallCommand();
         $commands[] = new Command\CreateProjectCommand();
         $commands[] = new Command\UpdateCommand();
+        $commands[] = new Command\StabilizeCommand();
         $commands[] = new Command\SearchCommand();
         $commands[] = new Command\ValidateCommand();
         $commands[] = new Command\ShowCommand();
