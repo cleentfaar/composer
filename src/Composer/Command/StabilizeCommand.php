@@ -43,7 +43,7 @@ class StabilizeCommand extends Command
             ))
             ->setHelp(<<<EOT
 The <info>stabilize</info> command reads the composer.json file from the current directory,
-finds the latest and most stable versions for the given packages, and writes
+finds the latest and most stable versions for all the packages, and writes
 those versions to your composer.json.
 
 After this is done, it executes the <info>update</info> command for each of the packages
